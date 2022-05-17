@@ -43,7 +43,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   details() async {
-    dynamic data = await getUserDetails();
+    // dynamic data = await getUserDetails();
+    dynamic data = null;
     data != null
         ? setState(() {
             privAddress = data['privateKey'];
